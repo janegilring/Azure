@@ -1,0 +1,11 @@
+{
+  "if": {
+  "not": {
+      "field": "[concat('tags[', parameters('tagName'), ']')]",
+      "match": "[parameters('tagValuePattern')]"
+  }
+},
+"then": {
+  "effect": "deny"
+}
+}

@@ -1,0 +1,14 @@
+{
+    "tagName": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of tag"
+        }
+    },
+    "tagValuePattern": {
+        "type": "String",
+        "metadata": {
+            "description": "Pattern to use for tag values. provide # to match a digit, ? for a letter, . to match all characters, and any other character to match that actual character. Example: '##-???-####'."
+        }
+    }			
+}

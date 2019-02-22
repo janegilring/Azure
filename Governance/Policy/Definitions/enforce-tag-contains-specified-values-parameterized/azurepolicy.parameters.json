@@ -1,0 +1,14 @@
+{
+    "tagName": {
+        "type": "String",
+        "metadata": {
+            "description": "Name of tag"
+        }
+    },
+    "tagValueArray": {
+        "type": "Array",
+        "metadata": {
+            "description": "Valid values for the tag. Example: Prod;Dev;Test"
+        }
+    }			
+}

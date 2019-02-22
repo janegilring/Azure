@@ -1,0 +1,11 @@
+{
+  "if": {
+    "not": {
+      "field": "tags",
+      "containsKey": "[parameters('tagName')]"
+    }
+  },
+  "then": {
+    "effect": "deny"
+  }
+}
